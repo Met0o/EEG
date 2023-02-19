@@ -1,0 +1,20 @@
+# Environment Setup ----
+
+# Conda Environment Setup Instructions ----
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+# 
+#    conda env create -f 01_conda_environment.yml
+#    conda env update --file 01_conda_environment.yml --prune
+#    conda env export --name 3.10 > envname.yml
+#    conda env remove --name 3.10
+#    conda env list
+
+name: 3.10
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  - numpy
+  - pandas
+  - 
