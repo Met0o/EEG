@@ -3,8 +3,11 @@ Repo containing python code for EEG data processing and analysis.
 
 In order to open the notebooks, you'll need to have a python environment installed on your computer. I do recommend using Anaconda for this.
 
-You can download and install Anaconda for Windows from here - https://docs.anaconda.com/anaconda/install/windows/ 
-Watch this video for setup details - https://www.youtube.com/watch?v=WUeBzT43JyY 
+You can download and install Anaconda for Windows from here: 
+- https://docs.anaconda.com/anaconda/install/windows/ 
+
+Watch this video for setup details: 
+- https://www.youtube.com/watch?v=WUeBzT43JyY 
 
 Once you have Anaconda set, you can configure your python environment.
 
