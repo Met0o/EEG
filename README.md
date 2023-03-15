@@ -13,6 +13,9 @@ Once you have Anaconda set, you can configure your python environment.
 
 Either create a new environment and install your packages inside it, or use the default environment that Anaconda has created for you. I recommend the first option.
 
+- To create a custom conda environment: conda create -n eeg python=3.9.7
+- To remove the environment: conda remove --name eeg --all
+
 Open up Anaconda Navigator from your start menu and start Jupyter Notebook.
 This will open up Jupyter in your web browser or you may get a popup asking you how to open the HTML file - choose your default browser.
 
