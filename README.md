@@ -28,7 +28,8 @@ Navigate to your new folder and open the notebook, and make sure you have the da
 
 Alternatively, download and install VSCode - https://code.visualstudio.com/download
 
-Properly setting up VSCode with Anaconda requires the configuration of an environment variables. To set them up on a windows machine, add this to your path:
+Properly setting up VSCode with Anaconda requires the configuration of an environment variables. To set them up on a windows machine, add these paths to Path:
+- Start Menu -> Environment Variables -> Edit the Path under User Variables.
   - C:\ProgramData\Anaconda3\Scripts\conda.exe
   - C:\ProgramData\Anaconda3
   - C:\ProgramData\Anaconda3\Bin
