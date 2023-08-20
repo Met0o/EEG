@@ -4,17 +4,27 @@
 #  - Using an environment.yml file with conda
 #  - Key Terminal Commands:
 # 
-#    conda env create -f 01_conda_environment.yml
-#    conda env update --file 01_conda_environment.yml --prune
-#    conda env export --name 3.10 > envname.yml
-#    conda env remove --name 3.10
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name eeg > environment.yml
+#    conda env remove --name eeg
 #    conda env list
 
-name: 3.10
+name: eeg
 channels:
   - anaconda
   - conda-forge
   - defaults
-  - numpy
-  - pandas
-  - 
+dependencies:
+  - pip
+  - python=3.10
+  - pip:
+      - numpy
+      - pandas
+      - plotly
+      - scipy
+      - ipykernel
+      - nbformat
+      - xlrd
+      - openpyxl
+      - mne-base
