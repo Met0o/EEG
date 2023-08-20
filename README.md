@@ -14,7 +14,7 @@ Once you have Anaconda set, you can configure your python environment.
 Either create a new environment and install your packages inside it, or use the default environment that Anaconda has created for you. I recommend the first option.
 
 - To create a new custom conda environment, open the Anaconda Prompt from Start Menu and run: 
-  - conda create --channel=conda-forge -n eeg python=3.10 numpy pandas plotly scipy ipykernel nbformat xlrd mne-base
+  - conda create --channel=conda-forge -n eeg python=3.10 numpy pandas plotly matplotlib==3.7.1 scipy ipykernel nbformat xlrd mne-base
 
 - To remove an environment use the same approach as above and run: 
   - conda remove --name eeg --all
