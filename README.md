@@ -1,6 +1,20 @@
-# EEG
+# EEG Analysis of Face Perception in Fusiform Face Area (FFA) using MNE-Python and behavioral data
+
 Repo containing python code for EEG data processing and analysis.
 
+# Plots
+
+## Power Plots
+[Global Field Power Heatmap](plots/FP.png)
+[Global Field Power uV](plots/FP2.png.png)
+
+## Time-Frequency Plots
+[Inverter Faces](plots/Invert.png)
+[Objets](plots/Obj.png)
+[Scrambled Faces](plots/Scrambled.png)
+[Upright Faces](plots/UP.png)
+
+# Setup
 In order to open the notebooks, you'll need to have a python environment installed on your computer. I do recommend using Anaconda for this.
 
 You can download and install Anaconda for Windows from here: 
