@@ -6,7 +6,7 @@ Repo containing python code for EEG data processing and analysis.
 
 ## Power Plots
 ![Global Field Power Heatmap](plots/FP.png)
-![Global Field Power uV](plots/FP2.png.png)
+![Global Field Power uV](plots/FP2.png)
 
 ## Time-Frequency Plots
 ![Inverter Faces](plots/Invert.png)
